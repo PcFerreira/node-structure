@@ -1,7 +1,7 @@
 /**
 * Dependencies.
 */
-const webServer = require('./services/webServer')
+const webServer = require('./services/server/webServer')
 
 /**
 * Startup the app

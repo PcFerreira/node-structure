@@ -1,8 +1,8 @@
 const http = require('http')
 const express = require('express')
 const morgan = require('morgan')
-const router = require('../routes/router')
-const webServerConfig = require('../../configs/webServerConfig')
+const router = require('../../router/router')
+const webServerConfig = require('../../../configs/webServerConfig')
 
 let httpServer
 
